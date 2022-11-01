@@ -1,0 +1,256 @@
+/* ========= Navbar =========*/
+@media (max-width: 991px) {
+	.navbar-nav {
+		justify-content: unset;
+	}
+	.navbar form {
+		width: 100%;
+		justify-content: start;
+	}
+}
+
+/* ========== Common ========= */
+@media (max-width: 1024px) {
+	.section-heading {
+		font-size: 46px;
+	}
+}
+
+@media (max-width: 768px) {
+	.btn-main {
+		font-size: 18px;
+		padding: 8px 25px;
+	}
+	.section-heading {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 576px) {
+	.section-para {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 425px) {
+	section {
+		padding: 50px 0;
+	}
+}
+
+/* --------------------******----------*****--------------------- */
+
+/* Media query for 1440px  */
+@media (max-width: 1440px) {
+	/* ========= Banner ======= */
+	.banner h1 {
+		font-size: 62px;
+	}
+	.banner {
+		padding: 140px 0 600px 0;
+	}
+	/* ========= Reach ======= */
+	.reach .row {
+		padding-left: 4%;
+	}
+}
+
+/* Media query for 1200px  */
+@media (max-width: 1200px) {
+	/* ========= Banner ======= */
+	.banner h1 {
+		font-size: 58px;
+		letter-spacing: 2px;
+	}
+	.banner p.banner-txt {
+		font-size: 20px;
+	}
+	.banner p.banner-para {
+		font-size: 20px;
+	}
+	.banner .button-wrap .btn-prime,
+	.banner .button-wrap .btn-sec {
+		font-size: 18px;
+		padding: 10px 30px;
+	}
+	.banner {
+		padding: 70px 0;
+	}
+	/* ========  Group ========= */
+	.group img {
+		width: 100%;
+		height: auto;
+		margin-top: unset;
+	}
+	/* ====== Count ======= */
+	.count .count-wrap h2 {
+		font-size: 32px;
+	}
+	.count .count-wrap h4 {
+		font-size: 20px;
+	}
+	/* ====== features ======= */
+	.features h4 {
+		font-size: 24px;
+		font-weight: 600;
+	}
+	.features p {
+		font-size: 18px;
+	}
+	/* ====== img-box ======= */
+	.img-box h3 {
+		font-size: 28px;
+	}
+	/* ====== contact-info ======= */
+	.contact-info .boxes h3 {
+		font-size: 28px;
+	}
+	.contact-info .boxes p {
+		font-size: 20px;
+	}
+	.contact-info .boxes h5 a {
+		font-size: 20px;
+	}
+	/* ========= Reach ======= */
+	.reach .row {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	.reach .card-header a.btn {
+		font-size: 22px;
+	}
+	.reach .card-body {
+		font-size: 18px;
+	}
+}
+
+/* Media query for 992px  */
+@media (max-width: 992px) {
+	/* ========= Reach ======= */
+	.reach .image img {
+		width: 100%;
+		float: unset;
+	}
+	/* Footer */
+	footer h5.news,
+	footer .title,
+	footer .title1 a {
+		font-size: 18px;
+	}
+	footer h5.news {
+		/* margin-left: 0px !important; */
+	}
+}
+
+/* Media query for 768px  */
+@media (max-width: 768px) {
+	/* ========= Banner ======= */
+	.banner h1 {
+		font-size: 55px;
+	}
+	/* ========= Our Partners ======= */
+	.partners p {
+		font-size: 20px;
+	}
+	.partner-wrap ul {
+		flex-direction: column;
+	}
+	.partner-wrap ul li {
+		margin-bottom: 20px;
+		width: 50%;
+	}
+	/* ====== features ======= */
+	.features .features-img img {
+		margin-bottom: 10px;
+	}
+	/* Footer */
+	footer .foo {
+		padding: 10px 0px !important;
+	}
+	footer .row.social {
+		float: unset;
+	}
+	footer .title {
+		font-size: 18px;
+	}
+}
+
+/* Media query for 576px  */
+@media (max-width: 576px) {
+	/* ========= Banner ======= */
+	.banner h1 {
+		font-size: 48px;
+	}
+	/* ====== Count ======= */
+	.count .count-wrap h2 {
+		font-size: 32px;
+	}
+	.count .count-wrap h4 {
+		font-size: 20px;
+	}
+	/* ====== img-box ======= */
+	.img-box h3 {
+		font-size: 24px;
+	}
+	/* ====== contact-info ======= */
+	.contact-info .boxes h3 {
+		font-size: 24px;
+	}
+	.contact-info .boxes p {
+		font-size: 18px;
+	}
+	.contact-info .boxes h5 a {
+		font-size: 18px;
+	}
+	/* ========= Reach ======= */
+	section.reach .row {
+		padding-left: unset;
+		padding-right: unset;
+	}
+	.reach .col-md-12 {
+		padding: 0 10px !important;
+	}
+}
+
+/* Media query for 425px  */
+@media (max-width: 425px) {
+	/* ========= Banner ======= */
+	.banner h1 {
+		font-size: 32px;
+	}
+	.banner .button-wrap .btn-prime {
+		margin-bottom: 15px;
+	}
+	.banner p.banner-para {
+		margin-bottom: 0;
+	}
+	/* ========= Our Partners ======= */
+	.partners p {
+		font-size: 18px;
+	}
+	.partner-wrap ul li {
+		margin-bottom: 20px;
+		width: 75%;
+	}
+	.partners p {
+		font-size: 20px;
+	}
+	/* ========= Reach ======= */
+	.reach .card-header a.btn {
+		font-size: 20px;
+	}
+	/* ========= Footer ======= */
+	footer h5 {
+		font-size: 18px;
+	}
+	footer .row.copy .list-group-horizontal.one {
+		flex-direction: column;
+	}
+	footer .row.copy .list-group-horizontal .list-group-item {
+		padding: 0px 10px;
+	}
+	footer .row.social {
+		margin-top: 30px;
+		float: unset !important;
+	}
+}
